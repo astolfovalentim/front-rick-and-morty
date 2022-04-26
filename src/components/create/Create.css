@@ -1,0 +1,13 @@
+.create {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: auto;
+   justify-items: flex-start;
+   align-items: center;
+}
+
+.create .preview-image {
+    max-width: 300px;
+    max-height: 200px;
+}

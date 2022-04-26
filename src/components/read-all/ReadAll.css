@@ -1,0 +1,32 @@
+.page > .read-all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: fit-content;
+    max-width: 85%;
+    z-index: 2;
+}
+.view{
+    justify-content: flex-start;
+}
+.controller{
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 5em;
+}
+
+.back,.next{
+    cursor: pointer;
+    color: rgb(94, 92, 92);
+}
+.back:hover,.next:hover{
+    color: var(--formBk);
+}

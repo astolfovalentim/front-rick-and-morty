@@ -1,0 +1,38 @@
+.header {
+    background: #3359EC;
+    color: #ffffff;
+    height: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 28px;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+.header a img{
+    max-height: 100%;
+    width: auto;
+}
+.header a {
+    height: 100%;
+    color: #ffffff;
+    margin-right: 1em;
+}
+.header nav a,.link{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0.5em;
+    margin: 0;
+    margin-right: 1em;
+}
+.header nav a:hover,.link:hover{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.623);
+    color:var(--formBk)
+}
+
+.search{
+    height: 50%;
+}

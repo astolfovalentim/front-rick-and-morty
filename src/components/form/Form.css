@@ -1,0 +1,36 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width:min-content;
+    width: 25%;
+    height: auto;
+    background-color: var(--formBk);
+    border-radius: 5px;
+    padding: 1em;
+}
+@media screen and (min-width: 0px) {
+    .form{
+        width: 100%;
+        background-color: transparent;
+    }
+}
+@media screen and (min-width: 480px) {
+    .form{
+        width: 50%;
+        background-color: var(--formBk);
+    }
+}
+@media screen and (min-width: 768px) {
+    .form{
+        width: 30%;
+        background-color: var(--formBk);
+    }
+}
+@media screen and (min-width: 1024px) {
+    .form{
+        width: 25%;
+        background-color: var(--formBk);
+    }
+}

@@ -1,0 +1,7 @@
+.login img{
+    width: 50%;
+    border-radius: 5px;
+}
+.login > form{
+    margin-top: 10%;
+}
