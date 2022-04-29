@@ -1,5 +1,5 @@
 export const Api = {
-  baseUrl: "https://mod3-rick-morty.herokuapp.com/",
+  baseUrl: "https://mod3-back-rickandmorty.onrender.com/",
   keyJwt: localStorage.getItem("keyLogin"),
 
   // characters
