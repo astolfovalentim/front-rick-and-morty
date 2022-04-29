@@ -1,5 +1,5 @@
 export const Api = {
-  baseUrl: "https://mod3-back-rickandmorty.onrender.com/",
+  baseUrl: "https://mod3-back-rickandmorty.onrender.com",
   keyJwt: localStorage.getItem("keyLogin"),
 
   // characters
